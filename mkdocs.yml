@@ -1,0 +1,35 @@
+site_name: SL的家庭生活
+site_url: https://shumingyang-opencode.github.io/slfamily-backup
+repo_url: https://github.com/shumingyang-opencode/slfamily-backup
+docs_dir: output
+use_directory_urls: true
+
+theme:
+  name: material
+  custom_dir: overrides/
+  language: zh-TW
+  icon:
+    logo: fontawesome/solid/blog
+  favicon: https://static.1px.tw/blog/v1p2/img/favicon.ico
+  features:
+    - navigation.instant
+    - navigation.top
+    - search.highlight
+    - search.suggest
+
+plugins:
+  - search
+
+extra:
+  analytics:
+    provider: google
+    property: G-PJJNE81PS0
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/shumingyang-opencode/slfamily-backup
+
+copyright: SL的家庭生活 — 痞客邦備份
+
+nav:
+  - 首頁: index.md
+  - 遺失圖片: broken_images.md
